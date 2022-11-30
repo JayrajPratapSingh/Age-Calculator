@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+form{
+    background-color: rgb(4, 4, 34);
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(0,0,0, 0.5);
+    padding: 20px;
+margin: 15px;
+}
+form h1{
+    color: white;
+}
+.dates{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.dates input{
+    width: 25%;
+font-size: 30px;
+padding: 5px;
+margin-left: 10px;
+border-radius: 6px;
+}
+
+.submit{
+    width: 25%;
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: rgb(0, 153, 255);
+    margin-bottom: 80px;
+}
+
+.output{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
