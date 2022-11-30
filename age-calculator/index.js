@@ -20,11 +20,19 @@ if(monthEle>newMonth){
     newMonth = newMonth + 12
     newYear = newYear-1
 }
+
+
 let dates = newDate - dateEle;
 let months = newMonth - monthEle;
 let years = newYear - yearEle;
+if(!dateEle || !monthEle || !yearEle){
+        
+    document.getElementById("output").innerHTML = "please input valid data from month and year"
+}
+else{
+    document.getElementById("output").innerHTML = `Your age is ${years} years ${months} months ${dates} days`
 
-document.getElementById("output").innerHTML = `Your age is ${years} years ${months} months ${dates} days`
+}
 
 }
 
